@@ -5,23 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge 2</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<<<<<<< HEAD
+    <div class="form">
     <h1 id="title">Challenge 2</h1>
     <p id="description">This is the challenge 2 on microverse trials</p>
     <form id="survey-form" action="">
 
-        <label id="name">Name:</label> <br>
-        <input type="name" placeholder="Enter your name"/><br>
-        <label id="email">Email:</label><br>
-        <input type="email" placehoder ="enter your email" required/><br>
-        <label id="number">Age:</label> <br>
-        <input type="number" min="12" max="40" placehoder ="enter your age"/>
+        <label id="name">Name: 
+        <input class="name" type="name" placeholder="Enter your name"/>
+    </label>
+        <br>
+        <label id="email">Email:
+        <input class="email" type="email" placehoder ="Enter your email" required/><br>
+        </label>
+        <label id="number">Age:
+        <input class="no" type="number" min="12" max="40" placehoder ="enter your age" required/>
+        </label>
+        <br>
+        <div class="main">
+            
+        <label class="quest" for="Questions">What do you want to study?</label> <br>
+        <div class="courses">
+        <label for="full-stack"> Full-stack
+          <input type="radio" id="full-stack" name="questions" value="Full-stack">
+        </label>
+        <label for="Web-Design">Web Design</label>
+          <input type="radio" id ="Web-Design" name="questions" value="Web-Design"><br>
+        </div>
+        </div>
+        
+          <label class="follow" for="Courses">Courses you want to follow:</label>
+          <div class="check">
+        <label for="Html">HTML
+          <input type="checkbox" id="Html" name="Courses" value="html" >
+        </label>
+        <label for="Css">CSS</label>
+          <input type="checkbox" id="Css" name="Courses" value="Css">
+        <label for="Java">Java</label>
+          <input type="checkbox" id="Java" name="Courses" value="Java">
+        </div>
+          <br>
+        <label for="City" class="study">Cities you want to study in ?</label><br>
+        <select name="cities" id="cities">
+                <option value="Kigali">KIGALI</option>
+                <option value="Tirane">TIRANE</option>
+                <option value="New York">NEW YORK</option>
+                <option value="London">LONDON</option>
+            </select>
+        <br>
+<label class="comments" for="comments">Any Additional Comments?
+        
+<textarea class="area" name="Comments" id="comments" cols="30" rows="10" placeholder="Additional Comments"></textarea>
+</label>
+<br>
+<button type="submit" id="submit">submit</button>
+</div>
+
     </form>
-=======
-    <p>Hello World!</p>
-    <p>We are software developers</p>
->>>>>>> 4f87ff9935db0abc8ec5768c1bbd6e08365057cc
+  
+</div>
 </body>
 </html>

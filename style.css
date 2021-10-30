@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(19, 19, 92);
+    color:cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#name{
+    display:flex;
+    flex-direction: column;
+}
+
+input.name{
+flex:1;
+}
+#email{
+    display:flex;
+    flex-direction: column;
+
+}
+.email{
+    flex:1;
+}
+#number{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.no{
+    flex:1;
+    
+}
+.main{
+    display:flex;
+    flex-direction:column;
+   
+}
+    
+.courses{
+    display:flex;
+}
+
+.check{
+    display:flex;
+    margin-top: 30px;
+    
+
+}
+
+.follow{
+   display:flex;
+   padding-top:30px;
+   font-size: large;
+   font-weight: bolder;
+   
+}
+
+.just{
+    display:flex;
+    height: 100px;
+    width:100px
+}
+
+#cities{
+    width:300px;
+    height:30px;
+   
+}
+
+.study{
+    display:flex;
+    display:flex;
+    padding-top:30px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.comments{
+    display:flex;
+    padding:30px;
+    flex-direction:column;
+    font-size: large;
+    font-weight: bolder;
+    justify-content: space-between;
+}
+
+.area{
+    margin-top: 30px;
+}
+button{
+    border-radius: 10px;
+    background-color: yellow;
+    font-size: larger
+    display:flex;
+    width:100px;
+    height:40px;
+    
+    
+
+}
